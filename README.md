@@ -24,7 +24,7 @@ src/librender/cppm*.cpp
 Remember to modify ```src/integrators/SConscript``` to include the integrators.
 
 ## Scenes
-We sort out some scenes in Mitsuba's format, which can be found [here](https://github.com/bacTlink/CPPM-scenes).
+We sort out some scenes in Mitsuba's format, which can be found [here](https://github.com/bacTlink/mitsuba-CPPM-scenes).
 
 ## BibTeX
 ```
