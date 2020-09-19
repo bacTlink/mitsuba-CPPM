@@ -1,7 +1,5 @@
 # CPPM: Chi-squared Progressive Photon Mapping
 
-Project URL: [bactlink.github.io/CPPM](https://bactlink.github.io/CPPM)
-
 ![result](https://bactlink.github.io/CPPM/papers_268s3.jpg)
 
 ## Abstract
