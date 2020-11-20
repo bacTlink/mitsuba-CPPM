@@ -132,6 +132,7 @@ protected:
     static Float m_cosPhi[256];
     static Float m_sinPhi[256];
     static Float m_expTable[256];
+public:
     static bool m_precompTableReady;
 
     /// @}
