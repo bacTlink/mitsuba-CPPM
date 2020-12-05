@@ -34,7 +34,7 @@ struct CPPMQuery {
     inline int getSection(const Point &photonPos) {
         Vector vector = its.toLocal(photonPos - position);
         Float angle = atan2(vector.y, vector.x);
-        angle += vector.y < 0 ? 2 * M_PI : 0;
+        angle += vector.y < 0 || (vector.y == 0 && vector.x < 0) ? 2 * M_PI : 0;
         int i = max(0, min(SEC_U - 1, (int)(SEC_U * vector.lengthSquared() / squaredRadius)));
         int j = (int)(SEC_V * angle / (M_PI * 2)) % SEC_V;
         return i * SEC_V + j;
